@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dyeing Club : Checkout</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/add-product.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/checkout.css">
+</head>
+<body>
+    <nav class="navbar dark"></nav>
+
+    <div class="error">
+        <p>some error occured</p>
+    </div>
+    <div class="form">
+        <h1 class="heading">checkout</h1>
+        <p class="text">delivery address</p> 
+        <input type = "text" id="address" placeholder="address">       
+        <input type = "text" id="street" placeholder="street">  
+        <div class="three-input-container">
+            <input type = "text" id="city" placeholder="city">       
+            <input type = "text" id="state" placeholder="state">       
+            <input type = "text" id="pincode" placeholder="pincode">  
+        </div>     
+             
+        <input type = "text" id="landmark" placeholder="landmark">       
+    </div>                                                               
+    <div class="cart-section">
+        <div class="product-list">
+            <p class="section-heading">your cart</p>
+            <div class="cart-container">
+                
+            </div>
+        </div>
+
+        <div class="checkout-section">
+            <div class="checkout-box">
+                <p class="text">your total bill,</p>
+                <h1 class="bill">Rs.00</h1>
+                <button class="place-order-btn">place order</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/nav.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/common.js"></script>
+    <script src="../js/checkout.js"></script>
+</body>
+</html>
